@@ -4,10 +4,11 @@ import org.testng.annotations.Test;
 
 public class FizzBuzzTest {
 
-    //1. Positive testing Happy path
-    // if (start <= end)
-    //return array;
-
+    /**
+     * 1. Positive testing Happy path
+     * if (start <= end)
+     * return array;
+     */
 
     //start < end
     @Test
@@ -61,9 +62,12 @@ public class FizzBuzzTest {
     }
 
 
-    //2. Negative testing
-    //    if (start > end)
-    //return new String[0];
+    /**
+     * 2. Negative testing
+     * if (start > end)
+     * return new String[0];
+     */
+
 
     @Test
     public void testStartGreaterThanEnd_Negative() {
